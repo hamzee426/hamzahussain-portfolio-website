@@ -1,0 +1,120 @@
+
+/* color: rgb(234 180 30 ); 
+ background-color: #011f41;*/
+/* .section-contact{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+} */
+.section-contact{
+    border-top: 0.2rem solid #ccc;   
+    font-family: Tasa-regular;
+    padding: 5rem 12rem 20rem 12rem;
+    pointer-events: none;
+    z-index: 2;
+}
+.contact-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    color: #555;
+    /* background-color: #ccc; */
+    /* background-color: rgba(45,212,191,.15);
+    background-color: #011f41; */
+    background-color: rgba(204, 204 ,204,0.90);
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 4.8rem;
+    pointer-events: auto;
+    border-radius: 9px;
+
+    /* border: 2px solid  #474747 ; */
+
+
+}
+*:focus{
+    outline: none;
+    
+}
+.contact-form *:focus{
+    outline: none;
+    box-shadow:  0 0 0 0.8rem rgba(28, 28, 28, 0.3);
+}
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+
+}
+.contact-wrapper label{
+    display: block;
+    color: #555;
+    font-size: Tasa-bold;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+
+}
+.contact-form input,.contact-form textarea{
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border: none;
+    color: #474747;
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    width: 50rem;
+    border :2px solid #555;
+}
+.contact-form textarea{
+    height: 12rem;
+}
+.send-svg{
+    color:  rgb(234 180 30 );
+    height: 1.3rem;
+    width: 1.3rem;
+}
+.btn-form{
+    display: flex; /* Use flexbox to align icon and text */
+    align-items: center; 
+    justify-content: center;
+    text-decoration: none;
+    font-family: Tasa-bold;
+    font-size: 2rem;
+    color: #cccccc;
+    background-color: #011f41;
+    border: 0.2rem solid transparent;
+    padding: 0.8rem 1.2rem;
+    width: 20rem;
+    margin-top: 2.5rem;
+    border-radius: 7px;
+    pointer-events: auto;
+    z-index: 200;
+    margin-bottom: 4rem;
+}
+.btn-form:hover,.btn-form:active{
+    color: rgb(234 180 30 );
+  
+   
+
+}
+.btn-form:hover,.btn-form:active{
+    color: rgb(234 180 30 );
+    box-shadow:  0 0 0 0.8rem rgba(28, 28, 28, 0.3);
+}
+.heading-form{
+    align-self: flex-start;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-family: Tasa-bold;
+    font-size: 5rem;
+}

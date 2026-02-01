@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Tasa-regular";
+  src: url("tasa-orbiter-font-family-1733116631-0/TASAOrbiterText-Regular-BF64891cba384f3.otf");
+}
+@font-face {
+  font-family: "Tasa-medium";
+  src: url("tasa-orbiter-font-family-1733116631-0/TASAOrbiterText-Medium-BF64891cb9e8a75.otf");
+}
+@font-face {
+  font-family: "Tasa-bold";
+  src: url("tasa-orbiter-font-family-1733116631-0/TASAOrbiterText-Bold-BF64891cba00f5b.otf");
+}
+@font-face {
+  font-family: "Tasa-semibold";
+  src: url("tasa-orbiter-font-family-1733116631-0/TASAOrbiterText-SemiBold-BF64891cba09cfc.otf");
+}
+.splash {
+  font-family: Tasa-bold;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #011f41;
+  transition: ease-out 1s;
+  overflow: hidden;
+}
+.splash-h1 {
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.2rem;
+}
+.splash-logo {
+  color: #ccc;
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+}
+.sp-splash-icon {
+  color: rgb(234 180 30);
+}
+.splash-logo.active {
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 1.5s;
+}
+.splash-logo.fade {
+  bottom: 200vh;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
